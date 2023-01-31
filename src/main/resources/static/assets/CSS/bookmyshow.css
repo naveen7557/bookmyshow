@@ -1,0 +1,199 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.first-nav
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    color: white;
+    background: rgb(42,42,68);
+
+}
+.first-nav .left
+{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.left img
+{
+    width: 15%;
+    margin-top: -10px;
+
+}
+.left input
+{
+    margin-inline: 11px;
+    width: 350px;
+    height: 33px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.first-nav .right
+{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.right p
+{
+    margin-inline: 50px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.right button
+{
+    margin-right: 50px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 5px;
+    background: #f24b67;
+    font-size: 13px;
+    color: white;
+    margin-top: 3px;
+}
+.right i{
+    margin-right: 22px;
+    margin-inline-start: -30px;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.second-nav
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 8px;
+    background-color: rgb(26,26,40);
+    color: white;
+}
+
+.second-nav .s-left
+{
+    display: flex;
+}
+.second-nav .s-right
+{
+    display: flex;
+}
+.second-nav p:hover
+{
+    color: lightslategray;
+    cursor: pointer;
+    font-weight: 600;
+}
+.s-left p
+{
+  margin-inline-start: 22px;
+}
+.s-right p
+{
+    margin-inline-start: 22px;
+
+}
+.main img
+{
+    width: 100%;
+}
+.container .card
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.card img
+{
+    width: 19%;
+    border-radius: 5px;
+    margin-block: 10px;
+
+}
+.container h2 {
+    margin-left: 80px;
+    margin-top: 25px;
+}
+.banner
+{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.event .events
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.events img
+{
+    width: 18%;
+    margin-block: 10px;
+    border-radius: 10px;
+}
+.event h2
+{
+    margin-top: 50px;
+    margin-left: 80px;
+
+}
+.premiere
+{
+    background-color: dimgrey;
+    color: white;
+    margin-top: 44px;
+    padding: 100px;
+}
+.premiere .card
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.premiere p{
+    font-size: 22px;
+
+}
+.fa-circle-play
+{
+    color: deeppink;
+   margin-bottom: 50px;
+
+}
+.footer .icons
+{
+    display: flex;
+    justify-content: center;
+    /*justify-content: space-around*/;
+    align-items: center;
+
+
+}
+
+.footer
+{
+    background-color: rgb(227,218,218);
+    padding: 33px;
+    margin-top: 44px;
+
+}
+
+
+.footer img
+{
+    width: 22%;
+    margin-left: 39%;
+    border-top:2px solid gray;
+}
+.icons i{
+
+    margin-inline-start: 22px;
+}
